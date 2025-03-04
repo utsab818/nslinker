@@ -25,3 +25,5 @@ This project automatically binds containerd containers to Linux network namespac
 - Extract PID and Pod Name from container config files.
 - Create a symlink in /var/run/netns/<pod-name> pointing to the container’s network namespace.
 - Allow network inspection via ip netns exec <pod-name> ....
+
+Project idea gathered from: https://github.com/aerosouund/nslinker
